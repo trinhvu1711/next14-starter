@@ -44,3 +44,16 @@
   position: relative;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .boxes {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+  }
+}
